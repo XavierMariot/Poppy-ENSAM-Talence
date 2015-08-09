@@ -370,10 +370,9 @@ if __name__=='__main__':
                 if c == 'q':
                     break
                 
-                if tempo < 1.:
-                    temo = 1.
-                if tempo > 5.:
-                    tempo = 5.
+                if tempo < 1.: tempo = 1.
+                
+                if tempo > 5.: tempo = 5.
                 
                 print "dx = ",dx
                 
